@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* navbar CSS */
+
+header .nav-item .nav-link{
+    color: #a82c48;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.6s;
+}
+
+header .nav-item .nav-link:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+    color: #a82c49d3;
+}
+
+/* banner-section CSS */
+
+.banner-section {
+    width: 100%;
+    background: url(../images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 107px 29px;
+}
+
+.banner-section .row .left{
+
+}
+
+.banner-section .left h3 {
+    color: rgb(97, 1, 1);
+    font-size: 37px;
+    width: 88%;
+    font-weight: 700;
+}
+
+.banner-section .left p {
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    width: 84%;
+    margin-bottom: 33px;
+}
+.banner-section .left .btn a{
+    padding: 10px 15px;
+    border: 1px solid #a82c48;
+    text-decoration: none;
+    background: #a82c48;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.banner-section .left .btn a:hover{
+    background: #a82c49d3;
+    transition: 0.6s;
+}
+
+/* counter-section CSS */
+
+.counter-section {
+    background: #a82c48;
+    width: 100%;
+}
+
+.counter-section .count {
+    color: white;
+    margin-top: 30px;
+}
+
+.counter-section .count h4{
+    font-weight: 700;
+}
+
+.counter-section .count p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* about-section CSS */
+
+.about-section {
+    /* margin-bottom: 56px; */
+    padding-bottom: 75px;
+    border: 1px solid #efefef;
+}
+.about-section .left img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 90px;
+}
+
+.about-section .right {
+    margin-top: 110px;
+}
+
+.about-section .right h3{
+    color: rgb(97, 1, 1);
+    font-size: 37px;
+    width: 88%;
+    font-weight: 700;
+}
+
+.about-section .right p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    width: 84%;
+    margin-bottom: 33px;
+}
+
+.about-section .right .btn a{
+    padding: 10px 15px;
+    border: 1px solid #a82c48;
+    text-decoration: none;
+    background: #a82c48;
+    color: white;
+    margin-top: 20px;
+}
+
+.about-section .right .btn a:hover{
+    background: #a82c49d3;
+    transition: 0.6s;
+}
+
+/* learn-section CSS */
+
+.learn-section{
+    margin-top: 50px;
+}
+
+.learn-section .right img {
+    width: 100%;
+    margin-top: 37px;
+}
+
+.learn-section .left {
+    margin-top: 124px;
+}
+
+.learn-section .left h3 {
+    color: rgb(97, 1, 1);
+    font-size: 47px;
+    width: 127%;
+    font-weight: 700;
+}
+
+.learn-section .left p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    width: 84%;
+    margin-bottom: 33px;
+}
+
+.learn-section .left .btn a{
+    padding: 10px 15px;
+    border: 1px solid #a82c48;
+    text-decoration: none;
+    background: #a82c48;
+    color: white;
+    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.learn-section .left .btn a:hover{
+    background: #a82c49d3;
+    transition: 0.6s;
+}
+
+.learn-section .left .list{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.learn-section .left .list h4{
+    color: gray;
+    font-size: 18px;
+    line-height: 8px;
+    font-weight: 400;
+}
+
+.learn-section .left .list i{
+    color: #a82c48;
+    font-weight: 700;
+} 
